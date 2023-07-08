@@ -19,7 +19,11 @@ console.log(isFalse); // false
 console.log(typeof isTrue); // "boolean"
 console.log(isTrue.toString()); // "true"
 
-
+// Constante
+const nombre = 'Howard'
+//      nombre = 'Howard'  //Las constantes no se pueden volver a repetir
+// alert(nombre)
+console.log(nombre) //se puede utlizar console.log para que la varible aparezca dentro de la consola.
 
 //El tipo de dato numérico representa un número.
 
