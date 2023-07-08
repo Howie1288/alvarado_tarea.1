@@ -32,6 +32,49 @@ console.log(typeof num); // "number"
 console.log(num.toFixed(2)); // "42.00"
 console.log(num.toString()); // "42"
 
+/*OTROS TIPOS DE EJEMPLOS  */
+let num1 = 10;
+let num2 = 3;
+
+// Suma
+let suma = num1 + num2;
+console.log('Suma: ' + suma); // Resultado: 13
+
+// Resta
+let resta = num1 - num2;
+console.log('Resta: ' + resta); // Resultado: 7
+
+// Multiplicación
+let multiplicacion = num1 * num2;
+console.log('Multiplicación: ' + multiplicacion); // Resultado: 30
+
+// División
+let division = num1 / num2;
+console.log('División: ' + division); // Resultado: 3.3333333333333335
+
+// Módulo
+let modulo = num1 % num2;
+console.log('Módulo: ' + modulo); // Resultado: 1
+
+// Incremento
+num1++;
+console.log('Incremento: ' + num1); // Resultado: 11
+
+// Decremento
+num2--;
+console.log('Decremento: ' + num2); // Resultado: 2
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //El tipo de dato cadena de texto representa una secuencia de caracteres
@@ -41,9 +84,23 @@ console.log(str); // "Hola, mundo!"
 
 // Métodos
 console.log(typeof str); // "string"
-console.log(str.toUpperCase()); // "HOLA, MUNDO!"
+console.log(str.toUpperCase()); // "HOLA, MUNDO!" // la convierte a Mayusculas
 console.log(str.substring(0, 4)); // "Hola"
 
+
+/* */
+let s1 = 'Hola, mundo!';
+let s2 = "Hola, amigos!";
+//El método length se puede utilizar para obtener el tamaño de una cadena de texto:
+console.log('Tamaño de la cadena: ' + s1.length);
+//El método indexOf se puede utilizar para encontrar la posición de un carácter o una subcadena dentro de una cadena de texto
+console.log('Posición de la coma: ' + s1.indexOf(','));
+//El método includes se puede utilizar para comprobar si una cadena de texto contiene otra subcadena:
+if (s1.includes('mundo')) {
+  console.log('La cadena contiene la subcadena "mundo"');
+} else {
+  console.log('La cadena no contiene la subcadena "mundo"');
+}
 
 
 //El tipo de dato nulo representa la ausencia intencional de cualquier objeto o valor
