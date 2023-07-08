@@ -9,7 +9,6 @@ console.log(typeof x); // "undefined"
 console.log(x === undefined); // true
 
 
-
 //El tipo de dato booleano representa un valor verdadero o falso.
 let isTrue = true; // variable booleana con valor verdadero
 let isFalse = false; // variable booleana con valor falso
@@ -64,19 +63,6 @@ console.log('Incremento: ' + num1); // Resultado: 11
 num2--;
 console.log('Decremento: ' + num2); // Resultado: 2
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 //El tipo de dato cadena de texto representa una secuencia de caracteres
 
 let str = "Hola, mundo!"; // variable de cadena de texto
@@ -113,8 +99,6 @@ console.log(typeof n); // "object"
 console.log(n === null); // true
 
 
-
-
 //El tipo de dato arreglo representa una cadena ordenada de elementos
 
 let arr = [1, 2, 3, 4, 5]; // variable arreglo
@@ -124,7 +108,6 @@ console.log(arr); // [1, 2, 3, 4, 5]
 console.log(typeof arr); // "object"
 console.log(arr.length); // 5
 console.log(arr.reverse()); // [5, 4, 3, 2, 1]
-
 
 
 //El tipo de dato objeto representa un objeto con propiedades y métodos
